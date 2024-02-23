@@ -1,11 +1,11 @@
-#include <iostream>
 #include <algorithm>
+#include <iostream>
 using namespace std;
 int main() {
   int n, m;
   cin >> n >> m;
   int a[n];
-  for(int i = 0; i < n; i++) {
+  for (int i = 0; i < n; i++) {
     cin >> a[i];
   }
   return 0;
